@@ -17,5 +17,5 @@ git clone https://github.com/anshulsha/twig-assignment.git
 sh setup.sh
 
 ```
-2. Now Mongodb and docker up.
+2. Now Mongodb and rabbitmq is up and running.
 3. Now go to the respective directories and follow their README.md
