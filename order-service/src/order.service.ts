@@ -55,7 +55,7 @@ export class OrderService {
 
       // Send event to Email Service
       this.logger.log(`--- Order created. Sending event to Email Service. ---`);
-      await new Promise((resolve) => setTimeout(resolve, 7000));
+      await new Promise((resolve) => setTimeout(resolve, 1500));
       this.emailService.emit('order_created', order_instance);
 
       // Send API call to Payment Service
