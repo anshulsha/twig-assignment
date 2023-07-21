@@ -65,7 +65,7 @@ export class EmailService {
       // sending event to payment service to update flag for payment complete event sent
       this.paymentService.emit(
         'payment_completed_email_sent',
-        paymentData.order_id,
+        paymentData.payment_id,
       );
 
       // sending event to order service to update flag for payment complete event sent
