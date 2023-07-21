@@ -76,7 +76,7 @@ export class PaymentService {
       );
 
       // Simulating payment processing time
-      await new Promise((resolve) => setTimeout(resolve, 7000));
+      await new Promise((resolve) => setTimeout(resolve, 1500));
 
       // Update payment status
       payment.status = PaymentStatus.COMPLETED;
